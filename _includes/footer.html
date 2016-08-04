@@ -1,0 +1,35 @@
+<section class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="six columns">
+        <h5>Disclaimer</h5>
+        <p>This site is created by Matthew Brown solely for informational purpose and is in no way related to or endorsed by the Marlborough District Council or any councillors past, present or future.</p>
+      </div>
+      <div class="six columns">
+        <h5>Contact</h5>
+        <p>The information gathered on this website is true and correct to the best of my ability. The aim of this site is to present unbiased information on the candidates for election. If there are any factual errors please don't hesiate to contact me with corrections.</p>
+        <ul class="links">
+          <li><a href="mailto:brownprobable@gmail.com">brownprobable@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container copyright">
+    &copy Matt Brown 2016
+  </div>
+</section>
+<script>
+  smoothScroll.init();
+  var slideout = new Slideout({
+    'panel': document.getElementById('panel'),
+    'menu': document.getElementById('menu'),
+    'padding': 256,
+    'tolerance': 70
+  });
+  document.querySelector('.toggle-button').addEventListener('click', function() {
+  slideout.toggle();
+  });
+  document.querySelector('.close-button').addEventListener('click', function() {
+  slideout.close();
+  });
+</script>
