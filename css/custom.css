@@ -70,6 +70,13 @@
     display:none;
   }
   .ad-placement-mobile{
+    width:300px;
+    height:120px;
+    background: #000;
+    margin:20px auto 0 auto;
+    display:block;
+  }
+  .top-nav{
     display:none;
   }
 }
