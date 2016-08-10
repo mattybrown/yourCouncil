@@ -19,8 +19,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Get informed on your councillors and mayoral candidates for Marlborough this year.
   This site aims to compile information about all running candidates in one easy place, so the people of Blenheim, Picton and other areas of Marlborough can make an informed decision
   on who they want representing them in council.
-baseurl: "/yourCouncil" # the subpath of your site, e.g. /blog
-url: "https://mattybrown.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourcouncil.online/" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
