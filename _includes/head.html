@@ -6,6 +6,12 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+  <meta property="og:url" content="http://yourcouncil.online/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Your Council, Marlborough" />
+  <meta property="og:description" content="Get informed on your councillors and mayoral candidates for Marlborough this year. This site aims to compile information about all running candidates in one easy place" />
+  <meta property="og:image" content="http://yourcouncil.online/images/nz-flag.jpg" />
+  
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/custom.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/normalize.css" | prepend: site.baseurl }}">
