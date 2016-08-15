@@ -3,6 +3,7 @@ layout: post
 title:  "How not to buy more Rates"
 date:   2016-08-14 11:40:51 +1200
 author: Graham Hill
+description: "Are we wired into the wider world? Do the council elections have anything to do with the US Presidential elections or with Brexit?"
 ---
 1. Are we wired into the wider world? Do the council elections have anything to do with the US Presidential elections or with Brexit? Has what we have seen with these offer cues and clues for us? I say maybe.
 
