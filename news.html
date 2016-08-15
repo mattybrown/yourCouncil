@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<section class="header">
+  <h1>News</h1>
+</section>
+
+<section class="body">
+  <div class="row">
+    <div class="eight columns offset-by-two">
+      {% for post in site.posts %}
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} - {{ post.author }}</span>
+        <h5>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h5>
+      {% endfor %}
+    </div>
+  </div>
+
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</section>
