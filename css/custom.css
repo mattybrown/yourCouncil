@@ -70,6 +70,12 @@
     display:none;
   }
   .ad-placement-mobile{
+    width:300px;
+    height:120px;
+    margin:20px auto 0 auto;
+    display:block;
+  }
+  .top-nav{
     display:none;
   }
 }
@@ -83,7 +89,6 @@
   .ad-placement-mobile{
     width:300px;
     height:120px;
-    background: #000;
     margin:20px auto 0 auto;
     display:block;
   }
@@ -100,7 +105,6 @@
   .ad-placement-tablet{
     width:550px;
     height:120px;
-    background: #000;
     margin:20px auto 0 auto;
     display:block;
   }
@@ -117,7 +121,6 @@
   .ad-placement-large{
     width:750px;
     height:120px;
-    background: #000;
     margin:20px auto 0 auto;
     display:block;
   }
@@ -178,7 +181,6 @@
   background:#2a2a2a;
 }
 .toggle-button{
-  margin-left:20px;
   font-size:3rem;
   border:none;
 }

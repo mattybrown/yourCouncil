@@ -7,7 +7,7 @@
     <script>
   window.fbAsyncInit = function() {
     FB.init({
-      appId      : '',
+      appId      : '180452982374486',
       xfbml      : true,
       version    : 'v2.7'
     });
@@ -22,7 +22,6 @@
    }(document, 'script', 'facebook-jssdk'));
 </script>
     <span id="top"></span>
-    {% include nav.html %}
 
 
 
@@ -60,8 +59,12 @@
         AdButler.ads.push({handler: function(opt){ AdButler.register(168148, 209632, [300,120], 'placement_209632_'+opt.place, opt); }, opt: { place: plc209632++, keywords: abkw, domain: 'servedbyadbutler.com', click:'CLICK_MACRO_PLACEHOLDER' }});
         </script>
       </div>
-           {{ content }}
-
+      <section class="body" style="margin-top:60px">
+        <div class="container">
+          <a href="{{ site.url }}" alt="back">Back</a>
+          {{ content }}
+        </div>
+      </section>
      </div>
 
      <div class="top-button">

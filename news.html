@@ -1,0 +1,44 @@
+---
+layout: livelink
+---
+
+<section class="header">
+  <h1>News</h1>
+</section>
+
+<section class="body">
+  <div class="row">
+    <div class="eight columns offset-by-two">
+      {% for post in site.posts %}
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} - {{ post.author }}</span>
+        <h5>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h5>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="row">
+    <h1 class="align-center">Links to news</h1>
+    <div class="eight columns offset-by-two">
+
+        <span class="post-meta">August 14 2016 - Elena McPhee</span>
+        <h5>
+          <a class="post-link" href="http://www.stuff.co.nz/marlborough-express/news/83085196/Four-mayoral-candidates-25-potential-councillors-for-Marlborough" alt="Four mayoral candidates, 25 potential councillors for Marlborough" target="_blank">Four mayoral candidates, 25 potential councillors for Marlborough</a>
+        </h5>
+
+        <span class="post-meta">August 14 2016 - Elena McPhee</span>
+        <h5>
+          <a class="post-link" href="http://www.stuff.co.nz/marlborough-express/news/83113048/marlborough-mayoral-candidates-john-leggett-colin-king-brian-dawson-and-john-davis" alt="Marlborough mayoral candidates: John Leggett, Colin King, Brian Dawson and John Davis " target="_blank">Marlborough mayoral candidates: John Leggett, Colin King, Brian Dawson and John Davis</a>
+        </h5>
+
+        <span class="post-meta">August 12 2016 - Marlborough Express</span>
+        <h5>
+          <a class="post-link" href="http://www.stuff.co.nz/marlborough-express/news/82970080/step-by-step-guide-to-voting-in-marlborough-district-council-elections" alt="Step by step guide to voting in Marlborough District Council elections" target="_blank">Step by step guide to voting in Marlborough District Council elections</a>
+        </h5>
+
+    </div>
+  </div>
+
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</section>
